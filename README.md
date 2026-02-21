@@ -74,3 +74,9 @@ Scan the knowledge code above or search for "Agent Skills 指南" in ima.copilot
 
 - [https://github.com/libukai/awesome-agent-skills](https://github.com/libukai/awesome-agent-skills)
 
+> [!Note]
+> Still under construction and improvement...
+
+## License
+
+MIT License - see the **LICENSE** file for details.
