@@ -26,6 +26,8 @@ Scan the knowledge code above or search for "Agent Skills 指南" in ima.copilot
 
 - [https://skill0.io/](https://skill0.io/)
 
+- [https://openclawhand.com/](https://openclawhand.com/)
+
 - [https://aiagentsdirectory.com/](https://aiagentsdirectory.com/)
 
 - [https://www.aitmpl.com/skills](https://www.aitmpl.com/skills)
@@ -79,6 +81,8 @@ Scan the knowledge code above or search for "Agent Skills 指南" in ima.copilot
 - [https://github.com/Orchestra-Research/AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs)
 
 - [https://github.com/libukai/awesome-agent-skills](https://github.com/libukai/awesome-agent-skills)
+
+- [https://github.com/VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)
 
 > [!Note]
 > Still under construction and improvement...
