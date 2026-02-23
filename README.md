@@ -4,7 +4,11 @@ Agent Skills from Official Dev Teams and the Community.
 
 Official standard for Agent Skills: [https://agentskills.io/](https://agentskills.io/)
 
-This skill helps you discover and install skills applicable to your tasks from the open agent skills ecosystem: npx skills add https://github.com/vercel-labs/skills --skill find-skills
+This skill helps you discover and install skills applicable to your tasks from the open agent skills ecosystem:
+
+```bash
+npx skills add https://github.com/vercel-labs/skills --skill find-skills
+```
 
 A knowledge base for "Agent Skills" on the ima.copilot platform:
 
