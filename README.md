@@ -42,6 +42,9 @@ Scan the knowledge code above or search for "Agent Skills 指南" in ima.copilot
 
 - [https://mulerun.com/skillshub](https://mulerun.com/skillshub)
 
+- [https://www.skill-cn.com/](https://www.skill-cn.com/)
+
+
 ## 🔥 Skills Repository
 
 - [https://github.com/anthropics/skills](https://github.com/anthropics/skills)
