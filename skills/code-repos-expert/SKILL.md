@@ -26,7 +26,7 @@ Expert-level intelligent question-and-answer (Q&A) support for open-source code 
 
 For **troubleshooting** and **deployment** intents, proactively request:
 - Hardware: Ascend chip model (e.g., 910B, 910C)
-- Software: Ascend HDK version, CANN version, Python version, torch and torch_npu version, vLLM/MindIE version
+- Software: Ascend HDK version, CANN version, Python version, torch and torch_npu version, transformers version, vLLM/MindIE version, triton-ascend version
 - OS: Linux distribution and kernel version
 - Error message or log snippet (if applicable)
 
@@ -34,7 +34,7 @@ When the intent cannot be determined, **proactively ask the user** to obtain cle
 
 ### 2. Route to Code Repository
 
-Match relevant keywords to **the appropriate repository**. Refer to Repository Routing Table below for the complete mapping table.
+Match relevant keywords to the appropriate repository. Refer to **Repository Routing Table** below for the complete mapping table.
 
 **Repository Routing Table**:
 
