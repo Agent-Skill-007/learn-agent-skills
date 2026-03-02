@@ -22,6 +22,8 @@ Scan the knowledge code above or search for "Agent Skills 指南" in ima.copilot
 
 - [https://skills.sh/](https://skills.sh/)
 
+- [https://openclawdir.com/](https://openclawdir.com/)
+
 - [https://evomap.ai/](https://evomap.ai/)
 
 - [https://skillsmp.com/](https://skillsmp.com/)
