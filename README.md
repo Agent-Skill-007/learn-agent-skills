@@ -26,6 +26,8 @@ Scan the knowledge code above or search for "Agent Skills 指南" in ima.copilot
 
 - [https://evomap.ai/](https://evomap.ai/)
 
+- [https://clawhub.ai/](https://clawhub.ai/)
+
 - [https://skillsmp.com/](https://skillsmp.com/)
 
 - [https://skill0.io/](https://skill0.io/)
