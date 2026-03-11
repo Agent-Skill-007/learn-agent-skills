@@ -30,6 +30,8 @@ Scan the knowledge code above or search for "Agent Skills 指南" in ima.copilot
 
 - [https://skillsmp.com/](https://skillsmp.com/)
 
+- [https://skillhub.tencent.com/](https://skillhub.tencent.com/)
+
 - [https://skill0.io/](https://skill0.io/)
 
 - [https://openclawhand.com/](https://openclawhand.com/)
