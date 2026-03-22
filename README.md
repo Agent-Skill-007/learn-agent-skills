@@ -24,6 +24,8 @@ Scan the knowledge code above or search for "Agent Skills 指南" in ima.copilot
 
 - [https://openclawdir.com/](https://openclawdir.com/)
 
+- [https://github.com/Narwhal-Lab/MagicSkills](https://github.com/Narwhal-Lab/MagicSkills)
+
 - [https://evomap.ai/](https://evomap.ai/)
 
 - [https://clawhub.ai/](https://clawhub.ai/)
