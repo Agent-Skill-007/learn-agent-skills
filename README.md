@@ -18,6 +18,22 @@ A knowledge base for "Agent Skills" on the ima.copilot platform:
 
 Scan the knowledge code above or search for "Agent Skills 指南" in ima.copilot's "发现" module.
 
+
+## 👌 Self-Evolving Skill
+
+- [https://github.com/sentient-agi/EvoSkill](https://github.com/sentient-agi/EvoSkill)
+
+- [https://github.com/hao-cyber/skill-evolution](https://github.com/hao-cyber/skill-evolution)
+
+- [https://github.com/JimmyMa99/TreeSkill](https://github.com/JimmyMa99/TreeSkill)
+
+- [https://github.com/OrangeViolin/skill-evolve](https://github.com/OrangeViolin/skill-evolve)
+
+- [https://github.com/ViktorAxelsen/MemSkill](https://github.com/ViktorAxelsen/MemSkill)
+
+- [https://github.com/AgriciDaniel/skill-forge](https://github.com/AgriciDaniel/skill-forge)
+
+
 ## 🚀 Skills Aggregation Platform
 
 - [https://skills.sh/](https://skills.sh/)
