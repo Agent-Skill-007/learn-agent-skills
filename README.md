@@ -23,6 +23,8 @@ Scan the knowledge code above or search for "Agent Skills 指南" in ima.copilot
 
 - [https://github.com/sentient-agi/EvoSkill](https://github.com/sentient-agi/EvoSkill)
 
+- [https://github.com/HKUDS/OpenSpace](https://github.com/HKUDS/OpenSpace)
+
 - [https://github.com/hao-cyber/skill-evolution](https://github.com/hao-cyber/skill-evolution)
 
 - [https://github.com/JimmyMa99/TreeSkill](https://github.com/JimmyMa99/TreeSkill)
