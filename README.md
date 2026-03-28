@@ -89,6 +89,8 @@ Scan the knowledge code above or search for "Agent Skills 指南" in ima.copilot
 
 - [https://github.com/obra/superpowers](https://github.com/obra/superpowers)
 
+- [https://github.com/MiniMax-AI/skills](https://github.com/MiniMax-AI/skills)
+
 - [https://github.com/sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills)
 
 - [https://github.com/vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills)
@@ -118,8 +120,6 @@ Scan the knowledge code above or search for "Agent Skills 指南" in ima.copilot
 - [https://github.com/libukai/awesome-agent-skills](https://github.com/libukai/awesome-agent-skills)
 
 - [https://github.com/VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)
-
-- [https://github.com/MiniMax-AI/skills](https://github.com/MiniMax-AI/skills)
 
 > [!Note]
 > Still under construction and improvement...
