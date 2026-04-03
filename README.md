@@ -48,6 +48,8 @@ Scan the knowledge code above or search for "Agent Skills 指南" in ima.copilot
 
 - [https://clawhub.ai/](https://clawhub.ai/)
 
+- [https://cn.clawhub-mirror.com/skills](https://cn.clawhub-mirror.com/skills)
+
 - [https://www.agensi.io/skills/skill-router](https://www.agensi.io/skills/skill-router)
 
 - [https://skillsmp.com/](https://skillsmp.com/)
