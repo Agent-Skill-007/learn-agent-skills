@@ -1,6 +1,6 @@
 ---
 name: ascend-inference-repos-copilot
-description: 昇腾（Ascend）推理生态开源代码仓库智能问答专家旨在为 vLLM、vLLM-Ascend、MindIE-LLM、MindIE-SD、MindIE-Motor、MindIE-Turbo 以及 msModelSlim (MindStudio-ModelSlim) 等仓库提供专家级且易于理解的解释。在处理昇腾（Ascend）推理生态相关项目的用户询问时，务必触发此技能（Skill），可解答使用方法、部署流程、支持模型、支持特性、系统架构、配置管理、调试、测试、故障排查、性能优化、定制开发、源码解析以及其他技术问题。支持中英文双语回复，并可借助 deepwiki MCP 工具检索仓库知识库，生成具备上下文感知且基于证据的回答。Ascend inference ecosystem open-source code repository intelligent question-and-answer (Q&A) expert. Provide expert-level yet comprehensible explanations for repositories such as vLLM, vLLM-Ascend, MindIE-LLM, MindIE-SD, MindIE-Motor, MindIE-Turbo, and msModelSlim (MindStudio-ModelSlim). Use this skill when addressing user inquiries related to these Ascend inference ecosystem projects, including topics such as usage, deployment process, supported models, supported features, system architecture, configuration management, debugging, testing, troubleshooting, performance optimization, custom development, source code analysis, and any other technical issues about these projects. Support responses in both Chinese and English. Use deepwiki MCP tools to query repository knowledge bases and generate context-aware, evidence-based responses.
+description: 昇腾（Ascend）推理生态开源代码仓库智能问答专家旨在为 vLLM、vLLM-Ascend、MindIE-LLM、MindIE-SD、MindIE-Motor、MindIE-Motor、MindIE-Turbo 以及 msModelSlim (MindStudio-ModelSlim) 等仓库提供专家级且易于理解的解释。在处理昇腾（Ascend）推理生态相关项目的用户询问时，务必触发此技能（Skill），可解答使用方法、部署流程、支持模型、支持特性、系统架构、配置管理、调试、测试、故障排查、性能优化、定制开发、源码解析以及其他技术问题。支持中英文双语回复，并可借助 deepwiki MCP 工具检索仓库知识库，生成具备上下文感知且基于证据的回答。Ascend inference ecosystem open-source code repository intelligent question-and-answer (Q&A) expert. Provide expert-level yet comprehensible explanations for repositories such as vLLM, vLLM-Ascend, MindIE-LLM, MindIE-SD, MindIE-Motor, MindIE-PyMotor, MindIE-Turbo, and msModelSlim (MindStudio-ModelSlim). Use this skill when addressing user inquiries related to these Ascend inference ecosystem projects, including topics such as usage, deployment process, supported models, supported features, system architecture, configuration management, debugging, testing, troubleshooting, performance optimization, custom development, source code analysis, and any other technical issues about these projects. Support responses in both Chinese and English. Use deepwiki MCP tools to query repository knowledge bases and generate context-aware, evidence-based responses.
 ---
 
 # Code Repositories Expert
@@ -45,7 +45,8 @@ Match relevant keywords to the appropriate repository by referring to the **Repo
 | `vllm-ascend` / `vllm ascend` / `vLLM Ascend` / `vLLM-Ascend` | `vllm-project/vllm-ascend` | Must query `vllm-project/vllm` for upstream context first, then query `vllm-project/vllm-ascend` |
 | `MindIE-LLM` / `MindIE LLM` / `mindie-llm` / `mindie llm` | `verylucky01/MindIE-LLM` | LLM inference engine for Ascend |
 | `MindIE-SD` / `MindIE SD` / `mindie-sd` / `mindie sd` | `verylucky01/MindIE-SD` | Multimodal generative inference for Ascend |
-| `MindIE-Motor` / `MindIE Motor` / `mindie-motor` / `mindie motor` | `verylucky01/MindIE-Motor` | Inference serving framework |
+| `MindIE-Motor` / `MindIE Motor` / `mindie-motor` / `mindie motor` | `verylucky01/MindIE-Motor` | Inference serving framework, without "Py" or "py" |
+| `MindIE-PyMotor` / `MindIE PyMotor` / `mindie-pymotor` / `mindie pymotor` | `verylucky01/MindIE-PyMotor` | Inference serving framework, with "Py" or "py" |
 | `MindIE-Turbo` / `MindIE Turbo` / `mindie-turbo` / `mindie turbo` | `verylucky01/MindIE-Turbo` | NPU acceleration plugin for vLLM |
 | `msmodelslim` / `modelslim` / `MindStudio-ModelSlim` | `verylucky01/MindStudio-ModelSlim` | Model compression and quantization toolkit for Ascend |
 
@@ -75,8 +76,9 @@ For **pure MindIE-Turbo** internal questions, query only `verylucky01/MindIE-Tur
 #### Disambiguation Protocol
 
 - **Cannot determine repository**: Ask the user to clarify which project they are referring to. Never guess.
+- `MindIE-Motor` and `MindIE-PyMotor` are maintained as **two separate code repositories**.
 - **Ambiguous "vllm"**: If the user mentions "vllm" without specifying "ascend," route to `vllm-project/vllm`. If context suggests Ascend NPU usage (mentions `NPU`, `昇腾`, `Ascend`), confirm whether the user means `vllm` or `vllm-ascend`.
-- **Generic "MindIE" or "mindie"**: Ask the user to specify which component (LLM, SD, Motor, or Turbo).
+- **Generic "MindIE" or "mindie"**: Ask the user to specify which component (LLM, SD, PyMotor, Motor, or Turbo).
 - **Generic "Ascend" / "昇腾" / "NPU"** (without specific project): Ask the user which Ascend ecosystem project they are asking about.
 - **Cross-repo comparison questions** (e.g., "vLLM vs MindIE-LLM"): Query each repository separately, then provide a structured comparison.
 
@@ -202,7 +204,7 @@ For complex or high-stakes topics, explicitly recommend consulting official docu
 
 ## Scope Boundary
 
-This `Skill` covers ONLY the following 7 open-source repositories: vLLM, vLLM-Ascend, MindIE-LLM, MindIE-SD, MindIE-Motor, MindIE-Turbo, msModelSlim.
+This `Skill` covers ONLY the following 8 open-source repositories: vLLM, vLLM-Ascend, MindIE-LLM, MindIE-SD, MindIE-Motor, MindIE-PyMotor, MindIE-Turbo, msModelSlim.
 
 If the user's question falls outside this scope:
 - Clearly state the limitation
