@@ -58,6 +58,8 @@ Scan the knowledge code above or search for "Agent Skills 指南" in ima.copilot
 
 - [http://www.fudankw.cn:18000/search-skills.html](http://www.fudankw.cn:18000/search-skills.html)
 
+- [https://youmind.com/zh-CN/skills](https://youmind.com/zh-CN/skills)
+
 - [https://skillhub.tencent.com/](https://skillhub.tencent.com/)
 
 - [https://skill0.io/](https://skill0.io/)
