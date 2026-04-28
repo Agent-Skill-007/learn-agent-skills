@@ -131,6 +131,8 @@ Scan the knowledge code above or search for "Agent Skills 指南" in ima.copilot
 
 - [https://github.com/VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)
 
+- [https://github.com/Dqz00116/skill-lib](https://github.com/Dqz00116/skill-lib)
+
 > [!Note]
 > Still under construction and improvement...
 
