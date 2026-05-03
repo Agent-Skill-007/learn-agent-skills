@@ -1,6 +1,6 @@
 ---
 name: ascend-inference-repos-copilot
-description: 专用于以下昇腾（Ascend）推理开源代码仓库的智能问答技能：vLLM、vLLM-Ascend、MindIE-LLM、MindIE-SD、MindIE-Motor、MindIE-PyMotor、MindIE-Turbo 以及 msModelSlim (MindStudio-ModelSlim)。当回答用户关于前述代码仓的问题时，必须提供上下文感知、基于证据的技术回答，确保回答完整、准确且可追溯。覆盖的技术问题包括但不限于：源码理解、软件架构、部署与使用步骤指引、API 和参数配置、模型与特性支持查询、模型量化后如何推理、调试、测试与故障排查、错误日志诊断、性能优化、精度验证、定制开发以及其他相关技术问题。支持中英文双语回复，并可借助 DeepWiki MCP 工具深入检索仓库信息。触发条件（满足任一即可）：1. 用户问题中包含上述任一仓库名称（支持中英文别名、大小写不敏感匹配）；2. 用户问题中包含 “昇腾推理” 或 "Ascend Inference"，且同时涉及大模型、部署、性能、报错或代码相关信息。
+description: 专用于以下昇腾（Ascend）推理开源代码仓库的智能问答技能：vLLM、vLLM-Ascend、MindIE-LLM、MindIE-SD、MindIE-Motor、MindIE-PyMotor、MindIE-Turbo 以及 msModelSlim (MindStudio-ModelSlim)。当回答用户关于前述代码仓的问题时，需提供因果链感知、基于证据的技术回答，并确保回答完整、准确、逻辑合理且可追溯。覆盖的技术问题包括但不限于：源码理解、软件架构、部署与使用步骤指引、API 和参数配置、模型与特性支持查询、模型量化后如何推理、调试技巧、测试验证、故障排除与解决、日志异常检测、性能优化、精度验证、定制开发以及其他相关技术问题。支持中英文双语回复，还可以借助 DeepWiki MCP 工具，对仓库中的信息进行更深入的检索。触发条件（满足以下任意一项即可）：1. 用户的问题中提及上述任一仓库名称（支持中英文别名，且不区分大小写）；2. 用户的问题中同时包含 "昇腾 推理" 或 "Ascend Inference"，并且涉及大模型、多模态、部署、性能、报错或代码等相关信息。
 ---
 
 # Code Repositories Expert
