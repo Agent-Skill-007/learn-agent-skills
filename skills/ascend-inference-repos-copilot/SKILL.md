@@ -3,15 +3,19 @@ name: ascend-inference-repos-copilot
 description: 专用于以下昇腾（Ascend）推理开源代码仓库的智能问答技能：vLLM、vLLM-Ascend、MindIE-LLM、MindIE-SD、MindIE-Motor、MindIE-PyMotor、MindIE-Turbo 以及 msModelSlim (MindStudio-ModelSlim)。当回答用户关于前述代码仓的问题时，需提供因果链感知、基于证据的技术回答，并确保回答完整、准确、逻辑合理且可追溯。覆盖的技术问题包括但不限于：源码理解、软件架构、部署与使用步骤指引、API 和参数配置、模型与特性支持查询、模型量化后如何推理、调试技巧、测试验证、故障排除与解决、日志异常检测、性能优化、精度验证、定制开发以及其他相关技术问题。支持中英文双语回复，还可以借助 DeepWiki MCP 工具，对仓库中的信息进行更深入的检索。触发条件（满足以下任意一项即可）：1. 用户的问题中提及上述任一仓库名称（支持中英文别名，且不区分大小写）；2. 用户的问题中同时包含 "昇腾 推理" 或 "Ascend Inference"，并且涉及大模型、多模态、部署、性能、报错或代码等相关信息。
 ---
 
-# Code Repositories Expert
+# Specialized Intelligent Q&A for Ascend Inference Open-Source Code Repositories
 
-Provide expert-level intelligent question-and-answer (Q&A) support for open-source code repositories within the **Ascend inference ecosystem**. Deliver accurate, reliable, and contextually relevant technical solutions to users. Responses should be provided **in the same language as the user's input** (Chinese or English).
+Specialized intelligent question-and-answer (Q&A) for the following Ascend inference open-source code repositories: vLLM, vLLM-Ascend, MindIE-LLM, MindIE-SD, MindIE-Motor, MindIE-PyMotor, MindIE-Turbo, and msModelSlim (MindStudio-ModelSlim). When addressing user queries about these repositories, must provide context-aware, evidence-based technical responses that are complete, accurate, logically coherent, and traceable. The technical topics covered include, but are not limited to, source code comprehension, software architecture, deployment and usage guidance, API and parameter configuration, model and feature support, inference after model quantization, debugging techniques, testing and validation, troubleshooting, log anomaly detection, performance optimization, accuracy verification, custom development, and other related issues.
+
+The `Skill` is triggered when any of the following conditions is met: (1) the user's question mentions the name of any of the above repositories, with support for both Chinese and English aliases in a case-insensitive manner. (2) the user's question includes the phrase "昇腾 推理" or "Ascend Inference" and also involves topics related to large models, multimodal, deployment, performance, error messages, or code.
+
+Responses should be provided **in the same language as the user's input** (Chinese or English).
 
 ## Overall Workflow
 
-### 1. Identify Intent
+### 1. Clarify Intent First
 
-**Understand the underlying intent** by inferring the technical requirements embedded within colloquial expressions and complex queries. Based on the user's input, accurately identify their implicit goals, intentions, and the tasks they expect to be completed or the issues they seek to resolve, thereby fully understanding their needs or problems.
+Infer the user's underlying intent by identifying the technical requirements embedded in colloquial expressions and complex queries. Based on the user's input, accurately identify implicit goals, intended tasks, and the issues to be resolved. This process enables a more comprehensive understanding of the user's needs.
 
 | User Expression | Intent Category |
 |---|---|
@@ -25,19 +29,20 @@ Provide expert-level intelligent question-and-answer (Q&A) support for open-sour
 | User pastes error log / stack trace | Extract key error message as query keywords |
 | User pastes code snippet | Identify module/file context, combine with intent |
 
-For **troubleshooting**, **deployment**, **configuration**, and **performance optimization** intents, proactively request:
-- Hardware information, including the Ascend chip model (e.g., 910B or 910C).
-- Software details, including the `Ascend HDK` version, `CANN` version, Python version, torch and `torch_npu` versions, `transformers` version, `vLLM` or `MindIE` version, and `Triton-Ascend` version.
-- Operating system information, including the Linux distribution and kernel version.
-- Relevant error messages or log snippets, if applicable.
+For queries related to troubleshooting, deployment, configuration, or performance optimization, proactively request the following information:
 
-When the user's intent is unclear, proactively request additional information to clarify the intent and context.
+- Hardware information, including the Ascend chip model, such as 910B or 910C.
+- Software details, including the versions of `Ascend HDK`, `CANN`, `Python`, `torch`, `torch_npu`, `transformers`, `vLLM` or `MindIE`, and `Triton-Ascend`.
+- Operating system information, including the Linux distribution and kernel version.
+- Relevant error messages or log snippets, where applicable.
+
+If the user's intent is unclear, proactively request additional information to clarify both the **intent and the specific context**.
 
 ### 2. Route to Code Repository
 
-Match relevant keywords to the appropriate repository by referring to the **Repository Routing Table** provided below.
+#### Repository Routing Table
 
-**Repository Routing Table**:
+Match relevant keywords to the appropriate repository by referring to the **Repository Routing Table** provided below.
 
 | Keyword(s) in User Input | DeepWiki `repoName` | Notes |
 |---|---|---|
